@@ -1,4 +1,4 @@
-[Finance Conference 2026.html](https://github.com/user-attachments/files/26573388/Finance.Conference.2026.html)
+[index.html](https://github.com/user-attachments/files/26574527/index.html)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -169,53 +169,12 @@
   .reg-type { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gray); }
   .reg-price { font-family: 'Playfair Display', serif; font-size: 1.8rem; color: var(--gold); font-weight: 700; margin: 0.75rem 0 0.25rem; }
   .reg-note { font-size: 0.78rem; color: var(--gray); }
-
-  /* BANK INFO - FIXED & ENHANCED */
-  .bank-info {
-    margin-top: 3rem;
-    background: rgba(201,147,58,0.08);
-    border: 2px solid rgba(201,147,58,0.4);
-    border-radius: 12px;
-    padding: 2.5rem;
-    display: block;
-    width: 100%;
-  }
-  .bank-info h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.4rem;
-    color: var(--gold);
-    margin-bottom: 1.5rem;
-    padding-bottom: 0.75rem;
-    border-bottom: 1px solid rgba(201,147,58,0.3);
-  }
-  .bank-detail {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0;
-    border-bottom: 1px solid rgba(255,255,255,0.08);
-    font-size: 0.95rem;
-  }
+  .bank-info { margin-top: 3rem; background: rgba(201,147,58,0.08); border: 1px solid rgba(201,147,58,0.25); border-radius: 10px; padding: 2rem; }
+  .bank-info h3 { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--gold); margin-bottom: 1rem; }
+  .bank-detail { display: flex; justify-content: space-between; padding: 0.6rem 0; border-bottom: 1px solid rgba(255,255,255,0.07); font-size: 0.9rem; }
   .bank-detail:last-child { border-bottom: none; }
-  .bank-detail .key {
-    color: var(--gray);
-    font-size: 0.82rem;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    font-weight: 500;
-  }
-  .bank-detail .val {
-    font-weight: 700;
-    color: var(--white);
-    font-size: 1rem;
-    text-align: right;
-  }
-  .bank-detail .val.acct-num {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.3rem;
-    color: var(--gold2);
-    letter-spacing: 0.08em;
-  }
+  .bank-detail .key { color: var(--gray); }
+  .bank-detail .val { font-weight: 500; }
 
   /* CALL FOR PAPERS */
   .cfp { background: var(--navy); }
@@ -244,8 +203,6 @@
     .nav-links { display: none; }
     .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 2rem; }
     .hero-meta { gap: 1.5rem; }
-    .bank-detail { flex-direction: column; align-items: flex-start; gap: 0.3rem; }
-    .bank-detail .val { text-align: left; }
   }
 </style>
 </head>
@@ -450,23 +407,12 @@
     </div>
     <p style="font-size:0.82rem;color:var(--gray);margin-top:1rem;">* Additional participation certificates: ₦10,000 each. Registration fee is borne by the lead or correspondence author.</p>
 
-    <!-- PAYMENT DETAILS - FIXED -->
     <div class="bank-info">
-      <h3>💳 Payment Details</h3>
-      <div class="bank-detail">
-        <span class="key">Account Name</span>
-        <span class="val">Int'l Conference of Banking and Finance Unical</span>
-      </div>
-      <div class="bank-detail">
-        <span class="key">Account Number</span>
-        <span class="val acct-num">2007843537</span>
-      </div>
-      <div class="bank-detail">
-        <span class="key">Bank</span>
-        <span class="val">First City Monument Bank (FCMB)</span>
-      </div>
+      <h3>Payment Details</h3>
+      <div class="bank-detail"><span class="key">Account Name</span><span class="val">Int'l Conference of Banking and Finance Unical</span></div>
+      <div class="bank-detail"><span class="key">Account Number</span><span class="val">2007843537</span></div>
+      <div class="bank-detail"><span class="key">Bank</span><span class="val">First City Monument Bank (FCMB)</span></div>
     </div>
-
   </div>
 </section>
 
